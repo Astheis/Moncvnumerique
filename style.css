@@ -1,0 +1,7 @@
+#nav {
+	padding: 0; margin: 0;
+}
+#nav li {
+	display: inline;
+	list-style: none; /* nécessaire pour IE7 */
+}
