@@ -2,6 +2,15 @@
 	padding: 0; margin: 0;
 }
 #nav li {
-	display: inline;
+	display: flex;
 	list-style: none; /* nécessaire pour IE7 */
+}
+
+.menu {
+	display: flex;
+	justify-content: space-around;
+	background-color: #372659;
+	color: #ffffff;
+	height: 50px;
+	width: 150px;
 }
