@@ -1,33 +1,375 @@
 <!DOCTYPE html>
-<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="utf-8">
+    <title>Amandine Grisot</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Document</title>
-</head>
-<body>
-    <div class="bandeau">
-        <div class="titre">
-            <h1 >Amandine Grisot</h1>
-            <h2>Future Développeuse</h2>
-    </div>
-</div>
-
-    <div class="navbar">
-  
-        <div class="menu">  
-
-            <div class="onglet"><p><a href="index.html">A propos de moi</a></p></div>
-            <div class="onglet"><p><a href="monparcourspro.html">Mon parcours professionel</a></p></div>
-            <div class="onglet"><p><a href="competences.html">Compétences</a></p></div>
-            <div class="onglet"><p><a href="formations.html">Formations</a></p></div>
-            <div class="onglet"><p><a href="contact.html">Contact</a></p></div>
-        </div>
-   
-    </div>
     
+
+    <link href="https://fonts.googleapis.com/css?family=Galada&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+
+    <header class="container-fluid header">
+        <div class="container">
+            <a class="logo" id="menu" href="#about">A propos</a>
+            <nav class="menu">
+
+                
+                
+                <a href="#formation">Formations</a>
+                <a href="#experience">Expériences</a>
+                <a href="#competences">Compétences</a>
+                <a href="#contact">Contactez-moi</a>
+
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <section class="container-fluid banner">
+        <div class="ban">
+            <img src="images/forest.jpg" alt="bannière du site" />
+        </div>
+        <div class="inner-banner">
+            <h1> Amandine Grisot <br> Future Développeuse </h1>
+            <button class="btn btn-custom"> <a href="#contact">Contactez-moi</a> </button>
+        </div>
+
+
+    </section>
+
+    <section class="container-fluid about">
+        <div class="container">
+          <h2 id="about"><a href="#menu">A propos</a></h2>
+            <hr class="separator">
+            <div class="row">
+
+                
+
+                    <article class="col-md-6 col-lg-6 col-xs-12 col-sm-12 center-block">
+                        
+
+                        <img src="images/amandine.jpg" alt="bannière du site"  />
+
+                    </article>
+
+
+
+                    <article class="col-md-6 col-lg-6 col-xs-12 col-sm-12 center-block">
+                        <h2>Présentation</h2>
+                        <p>Les 5 mois en formation à distance « Projet Pro Numérique » avec le groupe de Montpellier, 
+                            ont confirmé mon envie de poursuivre ma reconversion professionnelle dans le domaine de la 
+                            programmation informatique.</p>
+                    </article>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section class="container-fluid formation">
+        <div class="container">
+            <h2 id="formation"><a class="a2" href="#menu">Formations</a></h2>
+            <hr class="separator1">
+            <div class="row">
+    
+                
+    
+                    <article class="col">
+                        <h2> Projet Pro Métier du Numérique</h2>
+    
+                        Formation de 35h/s du 16/09/2019 au 21/02/2020 auprès de l’ADRAR. Remise à niveau en informatique (réseaux) et en développement. 
+                        Apprentissage du HTML et CSS, inititation PHP et JS ainsi que Bootstrap et l'algorithmique. Module de 20h sur le SEO et la création d’un cahiers des charges. 
+                        Travaux de groupes autour de la création de sites Web et de leur charte graphique.
+                        Utilisation du CMS Wordpress. 
+    
+    
+                    </article>
+    
+    
+    
+                    <article class="col">
+                        <h2> BTS Management des unités commerciales</h2>
+                        <p> En alternance
+                        </p>
+                    </article> 
+            </div>
+        </div>
+    
+    </section>
+
+            <br><br>
+
+
+    <section class="container-fluid">
+        <div class="container">
+
+            <h2 id="competences"><a class="a" href="#menu">Compétences</a></h2>
+            <hr class="separator">
+
+            </div>
+    </section>
+
+
+    <section class="container-fluid portfolio">
+        <div class="container">
+            <br> <br>
+            <div class="row">
+                   
+                <article class="col-xs-3 col-sm-3 col-md-4 col-lg-4  item-folio">
+                    <img src="images/html.png" alt="html" height="300px" width="300px"  />
+
+                </article>
+                <article class="col-xs-3 col-sm-3 col-md-4 col-lg-4 item-folio">
+                    <img src="images/css.png" alt="css" height="300px" width="210px" />
+
+                </article>
+                <article class="col-xs-3 col-sm-3 col-md-4 col-lg-4 item-folio">
+                    <img src="images/github.jpg" alt="github" height="300px" width="320px" />
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+<section class="container-fluid experience">
+    <div class="container">
+
+        <h2 id="experience"><a class="a2" href="#menu"> Expériences Professionnelles</a></h2>
+        <hr class="separator">
+
+
+
+
+        <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <h3 class="text-center"></h3>
+                <p>
+                </p>
+                <ul class="timeline">
+                  <li>
+                    <div class="timeline-image">
+                      <img class="img-circle img-responsive" src="" alt="">
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <h4>Responsable des Stocks</h4>
+                        <h4 class="subheading">Urban, Nouméa</h4>
+                      </div>
+                      <div class="timeline-body">
+                        <p class="text-muted">
+                            Mai 2017 à Novembre 2017
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="timeline-inverted">
+                    <div class="timeline-image">
+                      <img class="img-circle img-responsive" src="" alt="">
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <h4>Assistante stocks / vendeuse </h4>
+                        <h4 class="subheading">Urban, Nouméa</h4>
+                      </div>
+                      <div class="timeline-body">
+                        <p class="text-muted">
+                          Août 2015 à Mai 2017   </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="timeline-image">
+                      <img class="img-circle img-responsive" src="" alt="">
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <h4>Animatrice EHPAD</h4>
+                        <h4 class="subheading">La cordyline, Dumbéa</h4>
+                      </div>
+                      <div class="timeline-body">
+                        <p class="text-muted">
+                          Février 2017 à Avril 2017
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="timeline-inverted">
+                    <div class="timeline-image">
+                      <img class="img-circle img-responsive" src="" alt="">
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <h4>Responsable Remplaçante</h4>
+                        <h4 class="subheading">Presto Pizza et Le Bilboquet , Nouméa</h4>
+                      </div>
+                      <div class="timeline-body">
+                        <p class="text-muted">
+                          2015
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="timeline-image">
+                      <img class="img-circle img-responsive" src="" alt="">
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <h4>Employée saisonnière</h4>
+                        <h4 class="subheading">Gatton, Australie</h4>
+                      </div>
+                      <div class="timeline-body">
+                        <p class="text-muted">
+                          Octobre 2013 à Mai 2014
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  
+                  <li class="timeline-inverted">
+                    <div class="timeline-image">
+                      <img class="img-circle img-responsive" src="" alt="">
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <h4>Assistante Responsable </h4>
+                        <h4 class="subheading">Pizza Hut, Lyon</h4>
+                      </div>
+                      <div class="timeline-body">
+                        <p class="text-muted">
+                          Novembre 2011 à Septembre 2013 </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="timeline-image">
+                      <img class="img-circle img-responsive" src="" alt="">
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <h4>Equipière polyvalente</h4>
+                        <h4 class="subheading">Mezzo Di Pasta et Pizza Hut, Besançon</h4>
+                      </div>
+                      <div class="timeline-body">
+                        <p class="text-muted">
+                          Mars 2008 à Novembre 2011</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="timeline-inverted">
+                    <div class="timeline-image">
+                      <img class="img-circle img-responsive" src="" alt="">
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <h4>Auxiliaire de vie</h4>
+                        <h4 class="subheading">A domicile, Besançon</h4>
+                      </div>
+                      <div class="timeline-body">
+                        <p class="text-muted">
+                          2007 - 2008
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="timeline-image">
+                      <img class="img-circle img-responsive" src="" alt="">
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <h4>Assistante commerciale</h4>
+                        <h4 class="subheading">Zolpan, Pontarlier</h4>
+                      </div>
+                      <div class="timeline-body">
+                        <p class="text-muted">
+                          Septembre 2004 à Octobre 2006</p>
+                        
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+
+
+
+        <div class="row justify-content-around" id="expe">
+
+      
+
+            <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12  item-folio">
+              <img src="" alt="" height="300px" width="300px"  />
+
+          </article>
+          <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-folio">
+              <img src="" alt="" height="300px" width="210px" />
+
+          </article>
+          <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-folio">
+              <img src="" alt="" height="300px" width="320px" />
+
+            </article>
+           
+     
+            
+        </div>
+
+
+    </div>
+
+</section>
+            
+
+
+
+<section class="container-fluid experience2">
+    <div class="container">
+
+    <div class="row">
+
+
+        </div>
+    </div>
+
+</section>
+
+
+    <footer class="container-fluid footer">
+        <div class="container">
+
+            <h2 id="contact"> Contactez moi</h2>
+            <hr class="separator">
+
+            <div class="row">
+
+                <form class="formumlaire">
+                    <fieldset>
+                        <input type="text" id="name" name="name" class="input-block-level" placeholder="Name">
+                        <input type="text" id="email" name="email" class="input-block-level" placeholder="Email">
+                        <textarea rows="3" id="description" name="description" class="input-block-level"
+                            placeholder="Description"></textarea>
+                        <button type="submit" class="btn btn-custom pull-right"><a href="mailto:amandinegrisot@hotmail.com">Submit</a></button>
+                    </fieldset>
+                </form>
+            </div>
+            <p>Tous droits réservés / Amandine Grisot</p>
+        </div>
+
+    </footer>
+
 </body>
-</html>
