@@ -184,19 +184,20 @@ h2{
 
 }
 
-
+/*
 .portfolio {
     
-    height: 450px;
+    height: 300px;
     
 }
 
-
+/*
 .portfolio .item-folio{
-    height: 400px;
-    margin-left: 80px;
+    height: 200px;
+    margin-left: 0px;
    
 }
+*/
 
 #competences{
     text-align: center;
