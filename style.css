@@ -31,6 +31,7 @@ a:hover {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    justify-content: center;
 }
 
 .separator{
@@ -186,15 +187,15 @@ h2{
 
 .portfolio {
     
-    height: 600px;
+    height: 450px;
     
 }
 
 
 .portfolio .item-folio{
     height: 400px;
+    margin-left: 80px;
    
-
 }
 
 #competences{
@@ -560,13 +561,22 @@ textarea{
   .timeline > li .line {
     display: none;
   }
-  .item-folio {
-      height: 50px;
-      width: 15px;
+ 
+
+  .container-fluid .portfolio{
+    width: 10%;
+    img { max-width: 100%; }
   }
 }
+
+
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 767px) {
+
+  .inner-banner {
+    top: 300px;
+  }
+
   .timeline > li:nth-child(even) {
     margin-bottom: 0px;
     min-height: 0px;
